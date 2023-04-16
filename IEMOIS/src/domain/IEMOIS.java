@@ -62,7 +62,7 @@ public class IEMOIS{
     public void addCourse(String name, String price){ 
         Course nc=new Course(name,Integer.parseInt(price));
         programs.add(nc);
-        courses.put(name.toUpperCase(),nc); 
+        courses.put(name.toUpperCase(),nc);
     }
     
     /**
